@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
     
@@ -9,13 +9,27 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* Header */
 
 header {
-    display: inline-flex;
+   position: fixed;
+   width: 100%;
+   display: inline-flex;
+   align-content: center;
+   justify-content: space-between;
+
 }
 
 header img {
-    width: 100%;
+    width: 1.5rem;
     height: auto;
+}
+
+nav li {
+    display: inline-flex;
 }
