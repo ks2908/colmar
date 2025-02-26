@@ -133,3 +133,7 @@ nav li {
     height: auto;
     overflow: hidden;
 }
+
+figure {
+    display: inline-flex;
+}
