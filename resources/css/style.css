@@ -4,13 +4,10 @@
     box-sizing: border-box;
 }
     
-html {
+html, body {
     font-size: 16px;
     font-family: Helvetica, sans-serif;
     font-weight: 200;
-}
-
-body {
     margin: 0;
     padding: 0;
 }
@@ -23,12 +20,13 @@ a {
 /* Header */
 
 header {
-   position: fixed;
+   position: relative;
    width: 100%;
    height: 4rem;
    display: inline-flex;
    align-content: center;
-   border-bottom: 1px solid grey;
+   border-bottom: 1px solid lightgray;
+   background-color: white;
 }
 
 .logo-title {
@@ -56,4 +54,13 @@ header p {
 
 nav li {
     display: inline-flex;
+    margin: .5rem;
+}
+
+/* Start Section */
+
+.start {
+    display: flex;
+    position: relative;
+    background-color: lightgray;
 }
