@@ -95,3 +95,18 @@ nav li {
    margin: .5rem 0;
 }
 
+/* Information Section */
+
+.information-seciton {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    color: rgb(66, 66, 66);
+}
+
+.information-banner {
+    display: inline-flex;
+    width: 60%;
+    height: auto;
+    margin: 2rem 1.5rem;
+}
