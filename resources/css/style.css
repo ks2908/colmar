@@ -25,7 +25,6 @@ header {
    height: 4rem;
    display: inline-flex;
    align-content: center;
-   border-bottom: 1px solid lightgray;
    background-color: white;
 }
 
@@ -59,8 +58,40 @@ nav li {
 
 /* Start Section */
 
-.start {
-    display: flex;
+.start-content {
+    display: inline-flex;
     position: relative;
     background-color: lightgray;
+    width: 100%;
+    align-items: center;
+    color: rgb(66, 66, 66);
 }
+
+.banner {
+    display: inline-flex;
+    width: 60%;
+    height: auto;
+    margin: 2rem 1.5rem;
+}
+
+.start-text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 1.5rem;
+    max-width: 17rem;
+}
+
+.start-text p {
+    font-weight: 500;
+}
+
+.button button {
+   width: 17rem;
+   background-color: rgb(66, 66, 66); 
+   color: white;
+   border: none;
+   padding: .5rem;
+   margin: .5rem 0;
+}
+
