@@ -7,7 +7,7 @@
 html, body {
     font-size: 16px;
     font-family: Helvetica, sans-serif;
-    font-weight: 200;
+    font-weight: lighter;
     margin: 0;
     padding: 0;
 }
@@ -177,4 +177,68 @@ nav li {
 
 .information-images a:hover {
     color: rgb(255, 255, 255);
+}
+
+/* Courses Section */
+
+.courses-content {
+    position: relative;
+    background-color: lightgray;
+    width: 100%;
+    align-content: center;
+    color: rgb(66, 66, 66);
+    padding: 2rem 4.5rem 0;
+    flex: 1 1 auto;
+    border: 1px solid green;
+}
+
+.courses-content h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    margin-bottom: 2rem;
+}
+
+.courses-images {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+.courses-images .top {
+    border: 1px solid purple;
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 2rem;
+}
+
+.courses-images figure {
+    max-width: 33%;
+    height: auto;    
+    background-color: white;
+    border: 1px solid blue;
+}
+
+.courses-images .middle {
+    margin: 0 2rem;
+}
+
+.courses-images img {
+    width: 100%;
+    height: auto;
+}
+
+.courses-images figcaption {
+    padding: 1rem 1rem 1.5rem;
+    margin: 0;
+}
+
+.courses-images h5 {
+    font-size: .9rem;
+    font-weight: lighter;
+    margin: .5rem 0;
 }
