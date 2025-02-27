@@ -217,7 +217,7 @@ nav li {
 }
 
 .courses-images figure {
-    max-width: 33%;
+    width: 33%;
     height: auto;    
     background-color: white;
     border: 1px solid blue;
