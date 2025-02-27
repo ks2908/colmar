@@ -31,7 +31,7 @@ header {
 .logo-title {
     display: inline-flex;
     align-items: center;
-    margin-left: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 header img {
@@ -48,12 +48,12 @@ header p {
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    margin-right: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 nav li {
     display: inline-flex;
-    margin: .5rem;
+    padding: .5rem;
 }
 
 /* Start Section */
@@ -72,7 +72,6 @@ nav li {
     width: 60%;
     height: auto;
     margin: 0;
-    border: 1px solid red;
 }
 
 .start-text {
@@ -110,7 +109,6 @@ nav li {
 .information-quote {
     max-width: 60%;
     padding: 2rem 0 2rem 1.5rem;
-    border: 1px solid yellow;
 }
 
 .information-quote img {
@@ -121,7 +119,6 @@ nav li {
 .information-quote figcaption {
     padding: 0;
     margin: 0;
-    border: 1px solid green;
 }
 
 .information-quote h2 {
@@ -136,15 +133,21 @@ nav li {
     display: block;
     border-left: .5px solid lightgray;
     margin-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.information-images figure:hover {
+    background-color: lightgray;
 }
 
 .information-images figure {
     display: flex;
     padding: 1rem;
+    margin-bottom: .1rem;
     border: .5px solid lightgray;
 }
 
-.image {
+.information-images .image {
     width: 35%;
     height: auto;
 }
@@ -161,4 +164,8 @@ nav li {
 
 .information-images a {
     color: rgb(55, 148, 206);
+}
+
+.information-images a:hover {
+    color: rgb(255, 255, 255);
 }
