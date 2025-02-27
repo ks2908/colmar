@@ -185,11 +185,8 @@ nav li {
     position: relative;
     background-color: lightgray;
     width: 100%;
-    align-content: center;
     color: rgb(66, 66, 66);
     padding: 2rem 4.5rem 0;
-    flex: 1 1 auto;
-    border: 1px solid green;
 }
 
 .courses-content h2 {
@@ -206,21 +203,19 @@ nav li {
     width: 100%;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
 }
 
 .courses-images .top {
-    border: 1px solid purple;
     width: 100%;
     display: inline-flex;
     margin-bottom: 2rem;
+    flex: 1 1 auto;
 }
 
 .courses-images figure {
     width: 33%;
     height: auto;    
     background-color: white;
-    border: 1px solid blue;
 }
 
 .courses-images .middle {
@@ -241,4 +236,45 @@ nav li {
     font-size: .9rem;
     font-weight: lighter;
     margin: .5rem 0;
+}
+
+/* Thesis Section */
+
+.thesis-heading {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+    color: rgb(66, 66, 66);
+}
+
+.thesis-content {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    color: rgb(66, 66, 66);
+    margin: 0;
+    padding: 0;
+    flex: 1 1 auto;
+    border: 1px solid red;
+}
+
+.thesis-video {
+    min-width: 60%;
+    padding: 0 0 2rem 1.5rem;
+    border: 1px solid blue;
+}
+
+.thesis-video video {
+    width: 100%;
+    height: auto; 
+    margin-bottom: 1.5rem;  
+}
+
+.thesis-video h2 {
+    margin-bottom: .5rem;
+}
+.information-quote figcaption {
+    padding: 0;
+    margin: 0;
 }
