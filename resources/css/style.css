@@ -111,6 +111,7 @@ nav li {
     margin: 0;
     padding: 0;
     flex: 1 1 auto;
+    overflow: hidden;
 }
 
 .information-quote {
@@ -156,7 +157,7 @@ nav li {
     flex: 1 1 auto;
 }
 
-.information-images .image {
+.image {
     min-width: 35%;
     height: auto;
 }
@@ -256,6 +257,7 @@ nav li {
     margin: 0;
     padding: 0;
     flex: 1 1 auto;
+    overflow: hidden;
     border: 1px solid red;
 }
 
@@ -274,7 +276,38 @@ nav li {
 .thesis-video h2 {
     margin-bottom: .5rem;
 }
-.information-quote figcaption {
-    padding: 0;
+
+
+
+
+
+.thesis-images {
+    display: block;
+    border-left: .5px solid lightgray;
+    margin-left: 1.5rem;
+    padding: 1rem 0;
+    max-width: 40%;
+    border: 1px solid green;
+}
+
+.thesis-images figure:hover {
+    background-color: lightgray;
+}
+
+.thesis-images figure {
+    display: flex;
+    padding: 1rem;
+    margin-bottom: .1rem;
+    border: .5px solid purple;
+    flex: 1 1 auto;
+}
+
+.thesis-images figcaption {
+    min-width: 65%;
+    padding: 1rem;
     margin: 0;
+}
+
+.thesis-images p {
+    margin: .5rem 0;
 }
