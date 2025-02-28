@@ -258,13 +258,11 @@ nav li {
     padding: 0;
     flex: 1 1 auto;
     overflow: hidden;
-    border: 1px solid red;
 }
 
 .thesis-video {
     min-width: 60%;
     padding: 0 0 2rem 1.5rem;
-    border: 1px solid blue;
 }
 
 .thesis-video video {
@@ -277,16 +275,11 @@ nav li {
     margin-bottom: .5rem;
 }
 
-
-
-
-
 .thesis-images {
     display: block;
     margin-left: 1.5rem;
     padding: 0;
     max-width: 40%;
-    border: 1px solid green;
 }
 
 .thesis-images figure:hover {
@@ -297,7 +290,6 @@ nav li {
     display: flex;
     padding: 1rem;
     margin-bottom: .1rem;
-    border: 3px solid purple;
     flex: 1 1 auto;
 }
 
