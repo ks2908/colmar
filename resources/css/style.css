@@ -10,11 +10,12 @@ html, body {
     font-weight: lighter;
     margin: 0;
     padding: 0;
+    color: rgb(66, 66, 66);
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(66, 66, 66);
 }
 
 /* Header */
@@ -25,7 +26,6 @@ header {
    height: 4rem;
    display: inline-flex;
    align-content: center;
-   background-color: white;
    flex: 1 1 auto;
 }
 
@@ -68,7 +68,6 @@ nav li {
     background-color: lightgray;
     width: 100%;
     align-items: center;
-    color: rgb(66, 66, 66);
     padding: 2rem 1.5rem;
     flex: 1 1 auto;
 }
@@ -107,7 +106,6 @@ nav li {
     display: inline-flex;
     position: relative;
     width: 100%;
-    color: rgb(66, 66, 66);
     margin: 0;
     padding: 0;
     flex: 1 1 auto;
@@ -186,7 +184,6 @@ nav li {
     position: relative;
     background-color: lightgray;
     width: 100%;
-    color: rgb(66, 66, 66);
     padding: 2rem 4.5rem 0;
 }
 
@@ -246,14 +243,12 @@ nav li {
     width: 100%;
     text-align: center;
     margin: 2rem 0;
-    color: rgb(66, 66, 66);
 }
 
 .thesis-content {
     display: inline-flex;
     position: relative;
     width: 100%;
-    color: rgb(66, 66, 66);
     margin: 0;
     padding: 0;
     flex: 1 1 auto;
@@ -302,4 +297,21 @@ nav li {
 
 .thesis-images p {
     margin: .5rem 0;
+}
+
+/* Footer */
+
+footer {
+    display: inline-flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 1rem 1.5rem 2rem;
+    flex: 1 1 auto;
+    border-top: 1px solid lightgray;
+}
+
+footer a:hover {
+    color: rgb(55, 148, 206);
 }
