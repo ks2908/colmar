@@ -26,17 +26,18 @@ header {
    height: 4rem;
    display: inline-flex;
    align-content: center;
+   align-items: center;
+   overflow: hidden;
    flex: 1 1 auto;
 }
 
 .logo-title {
     display: inline-flex;
-    align-items: center;
     padding-left: 1.5rem;
     flex: 1 1 auto;
 }
 
-header img {
+.logo {
     width: auto;
     height: 2.5rem;
 }
@@ -45,21 +46,48 @@ header p {
     font-size: 2rem;
 }
 
-.header-right {
+.navbar {
     display: inline-flex;
-    align-items: center;
-    justify-content: flex-end;
     width: 100%;
-    padding-right: 1.5rem;
     flex: 1 1 auto;
 }
 
-nav li {
+.navbar .mobile-before {
     display: inline-flex;
-    padding: .5rem;
-    flex: 1 1 auto;
+    width: 100%;
+    justify-content: flex-end;
+}
+nav div {
+    display: inline-flex;
+    padding: 0 1rem;
 }
 
+nav a:hover {
+    color: rgb(55, 148, 206);
+}
+
+.mobile-after {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .mobile-before {
+        display: none;
+    }
+
+    .mobile-after {
+        visibility: visible;
+        display: flex;
+    }
+
+    .navbar .mobile-after {
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;  
+    }
+}
 /* Start Section */
 
 .start-content {
@@ -83,8 +111,9 @@ nav li {
     flex-direction: column;
     align-content: center;
     margin: 1.5rem;
-    max-width: 17rem;
+    width: 17rem;
     flex: 1 1 auto;
+    border: 1px solid red;
 }
 
 .start-text p {
@@ -98,6 +127,10 @@ nav li {
    border: none;
    padding: .5rem;
    margin: .5rem 0;
+}
+
+@media only screen and (max-width: 480px) {
+    
 }
 
 /* Information Section */
@@ -315,3 +348,5 @@ footer {
 footer a:hover {
     color: rgb(55, 148, 206);
 }
+
+
