@@ -155,6 +155,16 @@ nav a:hover {
         justify-content: center;
         border: 1px solid red;
     }
+
+    .button button {
+        width: 100%;
+        background-color: rgb(141, 141, 141); 
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: .5rem;
+        margin: .5rem 0;
+     }
 }
 
 /* Information Section */
