@@ -113,11 +113,14 @@ nav a:hover {
     margin: 1.5rem;
     width: 17rem;
     flex: 1 1 auto;
-    border: 1px solid red;
 }
 
 .start-text p {
     font-weight: 500;
+}
+
+.start-text .p {
+    margin: 2rem 0 1.5rem;
 }
 
 .button button {
@@ -130,7 +133,28 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 480px) {
-    
+    .start-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: 1px solid blue;
+    }
+
+    .banner {
+        width: 100%;
+        height: auto;
+    }
+
+    .start-text {
+        width: 100%;
+        margin: 0;
+        padding: 2rem 1rem;
+        justify-content: center;
+        border: 1px solid red;
+    }
 }
 
 /* Information Section */
