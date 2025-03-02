@@ -427,6 +427,33 @@ nav a:hover {
     margin: .5rem 0;
 }
 
+@media only screen and (max-width: 480px) {
+    .mobile-before {
+        display: none;
+    }
+
+    .mobile-after {
+        visibility: visible;
+        display: block;
+    }
+
+    .thesis-exhibits {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 2rem 0 1rem;
+    }
+
+    .video {
+        padding-bottom: 1.5rem;
+    }
+
+    .video .thesis {
+        width: 100%;
+        height: auto;
+    }
+}
+
 /* Footer */
 
 footer {
