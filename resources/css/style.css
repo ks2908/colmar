@@ -330,6 +330,30 @@ nav a:hover {
     margin: .5rem 0;
 }
 
+@media only screen and (max-width: 480px) {
+    .mobile-before {
+        display: none;
+    }
+
+    .mobile-after {
+        visibility: visible;
+        display: flex;
+    }
+
+    .courses-content {
+        background-color: white;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        padding: 2rem 1rem;
+    }
+
+    .courses {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
 /* Thesis Section */
 
 .thesis-heading {
