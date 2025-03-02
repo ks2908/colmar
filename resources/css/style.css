@@ -136,7 +136,6 @@ nav a:hover {
     .start-content {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         width: 100%;
         padding: 0;
         margin: 0;
@@ -151,7 +150,6 @@ nav a:hover {
         width: 100%;
         margin: 0;
         padding: 2rem 1rem;
-        justify-content: center;
     }
 
     .button button {
@@ -159,9 +157,6 @@ nav a:hover {
         background-color: rgb(141, 141, 141); 
         color: white;
         font-weight: bold;
-        border: none;
-        padding: .5rem;
-        margin: .5rem 0;
      }
 }
 
@@ -249,18 +244,21 @@ nav a:hover {
         flex-wrap: wrap;
         border-left: none;
         width: 100%;
-        margin: 0;
-        padding: 1rem 1rem 2rem 1rem;
+        margin: 0 0 2rem;
+        padding: 0 0;
     }
 
     .information-images figure {
         display:flex;
         flex-wrap: wrap;
         border: none;
+        margin:0;
     }
 
     .information-images figcaption {
+        width: 100%;
         margin-left: 1rem;
+        padding: 1rem 0 0;
     }
 
     .image {
@@ -271,7 +269,8 @@ nav a:hover {
     #campus {
         margin: 4rem 0;
     }
-}
+}   
+
 /* Courses Section */
 
 .courses-content {
@@ -348,9 +347,20 @@ nav a:hover {
     }
 
     .courses {
-        display: flex;
+        display: block;
         width: 100%;
-        flex-wrap: wrap;
+    }
+
+    .courses div {
+        background-color: lightgray;
+        padding: 1rem 1rem 1.5rem;
+    }
+    .courses .between {
+        margin: .5rem 0;
+    }
+
+    .courses-content h2 {
+        margin-bottom: 1rem;
     }
 }
 
